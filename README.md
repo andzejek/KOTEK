@@ -18,3 +18,4 @@ użycie(po skompilowaniu):
 compression: example.exe -c filein.bmp fileout.kotek
 
 decompression: example.exe -d filein.kotek fileout.bmp 
+(only R8G8B8 bmp/ppm)
