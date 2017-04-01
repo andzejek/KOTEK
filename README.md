@@ -4,11 +4,17 @@ W założeniach powinien cechować się kompresją mocniejszą o kilka % w poró
 Opis algorymu: algorytm jest podzielony na trzy niezależne etapy:
 
 kompresja:
--kodowanie różnic (deltaEnc)
--kodowanie sekwencji:RLE (rleEnc)
--kodowanie entropijne:huffman (huffEnc)
+-kodowanie różnic (deltaEnc).
+-kodowanie sekwencji:RLE (rleEnc).
+-kodowanie entropijne:huffman (huffEnc).
 
 dekompresja:
 -huffDec,rleDec,deltaDec.
 
 Przedstawiona tutaj implementacja jest uproszczona, przez co brakuje jej do oczekiwanego stopnia kompresji.
+
+użycie(po skompilowaniu): 
+
+compression: example.exe -c filein.bmp fileout.kotek
+
+decompression: example.exe -d filein.kotek fileout.bmp 
