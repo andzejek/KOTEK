@@ -6,12 +6,10 @@ void Image::clean(){
     memset(&B[0][0],0,width*height);
 }
 void Image::info(){
-    printf("Image:%s\n",name);
+
     printf("wymiary:%5d X %5d\n",width,height);
 }
-void Image::setName(char *_name){
-    sprintf(name,"%s",_name);
-}
+
 Image::Image(int _width,int _height){
     R=NULL  ;G=NULL;    B=NULL;
     int width=0;int height=0;
