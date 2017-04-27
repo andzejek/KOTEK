@@ -1,5 +1,5 @@
 # KOTEK
-KOTEK to bezstratnyprosty algorytm kompresji plików graficznych.
+KOTEK to bezstratny, prosty algorytm kompresji plików graficznych.
 Opis algorymu: algorytm jest podzielony na trzy niezależne etapy:
 
 kompresja:
