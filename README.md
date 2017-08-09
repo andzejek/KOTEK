@@ -2,6 +2,7 @@
 KOTEK to bezstratny, prosty algorytm kompresji plików graficznych.
 Opis algorymu: algorytm jest podzielony na trzy niezależne etapy:
 (Uproszczona implementacja, w pełnej wersji (niedokończonej) w fotografiach osiągał poziom pngout).
+
 kompresja:
 -kodowanie różnic (deltaEnc).
 -kodowanie sekwencji:RLE (rleEnc).
